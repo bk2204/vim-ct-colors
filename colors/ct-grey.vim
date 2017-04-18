@@ -187,6 +187,7 @@ hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
 hi link rubyConstant          Type
 hi link rubyControl           Conditional
+hi link rubySymbolDelimiter   rubyStringDelimiter
 
 hi link javaScopeDecl         Identifier
 hi link javaCommentTitle      javaDocSeeTag
