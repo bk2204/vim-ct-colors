@@ -15,7 +15,7 @@ if has("eval")
   let colors_name = "ct_grey"
 endif
 
-if $TERM == 'dumb'
+if !has("gui_running") && $TERM == 'dumb'
   finish
 endif
 
