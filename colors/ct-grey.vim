@@ -85,7 +85,7 @@ hi DiffText         guifg=#384048 guibg=#96cbfe   gui=NONE      ctermfg=NONE    
 hi rubyRegexp                 guifg=#B18A3D guibg=NONE  gui=NONE    ctermfg=brown   ctermbg=NONE    cterm=NONE
 hi rubyRegexpDelimiter        guifg=#FF8000 guibg=NONE  gui=NONE    ctermfg=brown   ctermbg=NONE    cterm=NONE
 hi rubyInterpolationDelimiter guifg=#00A0A0 guibg=NONE  gui=NONE    ctermfg=blue    ctermbg=NONE    cterm=NONE
-hi rubyStringDelimiter        guifg=#336633 guibg=NONE  gui=NONE    ctermfg=darkgreen ctermbg=NONE    cterm=NONE
+hi rubyStringDelimiter        guifg=#397339 guibg=NONE  gui=NONE    ctermfg=darkgreen ctermbg=NONE    cterm=NONE
 
 hi javaDocSeeTag              guifg=#CCCCCC guibg=NONE  gui=NONE    ctermfg=darkgray  ctermbg=NONE    cterm=NONE
 
