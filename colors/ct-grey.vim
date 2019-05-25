@@ -81,11 +81,12 @@ hi DiffDelete       guifg=#f6f3e8 guibg=#a81d1d   gui=NONE      ctermfg=white   
 hi DiffChange       guifg=#f6f3e8 guibg=#262d51   gui=NONE      ctermfg=white     ctermbg=cyan    cterm=NONE
 hi DiffText         guifg=#384048 guibg=#96cbfe   gui=NONE      ctermfg=NONE      ctermbg=blue    cterm=NONE
 
+hi StringDelimiter  guifg=#397339 guibg=NONE      gui=NONE      ctermfg=darkgreen ctermbg=NONE    cterm=NONE
+
 " Special handling for certain languages.
 hi rubyRegexp                 guifg=#B18A3D guibg=NONE  gui=NONE    ctermfg=brown   ctermbg=NONE    cterm=NONE
 hi rubyRegexpDelimiter        guifg=#FF8000 guibg=NONE  gui=NONE    ctermfg=brown   ctermbg=NONE    cterm=NONE
 hi rubyInterpolationDelimiter guifg=#00A0A0 guibg=NONE  gui=NONE    ctermfg=blue    ctermbg=NONE    cterm=NONE
-hi rubyStringDelimiter        guifg=#397339 guibg=NONE  gui=NONE    ctermfg=darkgreen ctermbg=NONE    cterm=NONE
 
 hi javaDocSeeTag              guifg=#CCCCCC guibg=NONE  gui=NONE    ctermfg=darkgray  ctermbg=NONE    cterm=NONE
 
@@ -151,10 +152,11 @@ if &t_Co == 256
   hi DiffChange     ctermfg=230       ctermbg=60      cterm=NONE
   hi DiffText       ctermfg=238       ctermbg=117     cterm=NONE
 
+  hi StringDelimiter  ctermfg=22      ctermbg=NONE    cterm=NONE
+
   hi rubyRegexp     ctermfg=137       ctermbg=NONE    cterm=NONE
   hi rubyRegexpDelimiter  ctermfg=208 ctermbg=NONE    cterm=NONE
   hi rubyInterpolationDelimiter ctermfg=6 ctermbg=NONE  cterm=NONE
-  hi rubyStringDelimiter  ctermfg=22  ctermbg=NONE    cterm=NONE
 
   hi javaDocSeeTag  ctermfg=252       ctermbg=NONE    cterm=NONE
 endif
@@ -187,7 +189,8 @@ hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
 hi link rubyConstant          Type
 hi link rubyControl           Conditional
-hi link rubySymbolDelimiter   rubyStringDelimiter
+hi link rubySymbolDelimiter   StringDelimiter
+hi link rubyStringDelimiter   StringDelimiter
 
 hi link javaScopeDecl         Identifier
 hi link javaCommentTitle      javaDocSeeTag
@@ -210,17 +213,17 @@ hi link javaScriptNumber      Number
 
 hi link csXmlTag              Keyword
 
-hi link perlStringStartEnd    rubyStringDelimiter
+hi link perlStringStartEnd    StringDelimiter
 hi link perlVStringV          String
 
-hi link p6Quote               rubyStringDelimiter
+hi link p6Quote               StringDelimiter
 
-hi link pythonStringDelimiter rubyStringDelimiter
+hi link pythonStringDelimiter StringDelimiter
 
-hi link zshStringDelimiter    rubyStringDelimiter
+hi link zshStringDelimiter    StringDelimiter
 
-hi link shQuote               rubyStringDelimiter
+hi link shQuote               StringDelimiter
 
-hi link clojureStringDelimiter  rubyStringDelimiter
+hi link clojureStringDelimiter  StringDelimiter
 
 " vim: set ts=2 sw=2 sts=2 et:
