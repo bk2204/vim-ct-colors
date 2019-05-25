@@ -81,7 +81,7 @@ hi DiffDelete       guifg=#f6f3e8 guibg=#a81d1d   gui=NONE      ctermfg=white   
 hi DiffChange       guifg=#f6f3e8 guibg=#262d51   gui=NONE      ctermfg=white     ctermbg=cyan    cterm=NONE
 hi DiffText         guifg=#384048 guibg=#96cbfe   gui=NONE      ctermfg=NONE      ctermbg=blue    cterm=NONE
 
-hi StringDelimiter  guifg=#397339 guibg=NONE      gui=NONE      ctermfg=darkgreen ctermbg=NONE    cterm=NONE
+hi StringDelimiter  guifg=#4f9e4f guibg=NONE      gui=NONE      ctermfg=darkgreen ctermbg=NONE    cterm=NONE
 
 " Special handling for certain languages.
 hi rubyRegexp                 guifg=#B18A3D guibg=NONE  gui=NONE    ctermfg=brown   ctermbg=NONE    cterm=NONE
