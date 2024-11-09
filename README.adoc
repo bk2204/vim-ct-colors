@@ -1,2 +1,4 @@
 This is the ct-grey theme for Vim.  It's based off
 https://github.com/twerth/ir_black[Todd Werth's ir_black].
+
+There is also a vim-airline theme included.
